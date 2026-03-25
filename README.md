@@ -1,4 +1,5 @@
 # Cloudflare Infrastructure Consulting
+> Infrastructure consulting framework for Cloudflare, DNS, monitoring, and incident response — focused on reliability, visibility, and outage readiness.
 
 This repository showcases a practical consulting framework for reviewing and improving Cloudflare-based infrastructure, outage readiness, and monitoring strategy.
 
@@ -30,7 +31,17 @@ In practice, this is used to:
 - Implement practical, production-ready solutions  
 
 ---
+## Typical Engagement Outcomes
 
+Clients typically use this framework to:
+
+- Improve website reliability and uptime  
+- Reduce time to detect and resolve incidents  
+- Gain visibility into performance and failures  
+- Establish structured monitoring and alerting  
+- Implement clear incident response workflows
+
+---
 ## What this repo covers
 
 ### 1. Cloudflare Review Framework
