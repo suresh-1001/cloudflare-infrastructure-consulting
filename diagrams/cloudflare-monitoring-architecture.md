@@ -1,7 +1,7 @@
 # Cloudflare Monitoring Architecture (Reference)
 
 ## Reference Architecture
-
+This diagram represents a typical Cloudflare-based architecture with monitoring and alerting integrated for visibility and incident response.
 ```mermaid
 flowchart LR
     A[User] --> B[Cloudflare Edge\nDNS CDN WAF]
