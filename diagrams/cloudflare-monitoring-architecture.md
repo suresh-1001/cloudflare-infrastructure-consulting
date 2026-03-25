@@ -1,11 +1,14 @@
 # Cloudflare Monitoring Architecture (Reference)
 
-User → Cloudflare Edge (DNS, CDN, WAF)
-          ↓
-       Origin (Web Server / App / API)
-          ↓
-   Monitoring & Observability Layer
+## Reference Architecture
 
+```mermaid
+flowchart LR
+    A[User] --> B[Cloudflare Edge\nDNS CDN WAF]
+    B --> C[Origin Server\nWeb Server API]
+    C --> D[Monitoring Layer\nUptime Synthetic Metrics Logs]
+    D --> E[Alerting System]
+```
 Monitoring Components:
 - Uptime Monitoring (external checks)
 - Synthetic Monitoring (user journey checks)
